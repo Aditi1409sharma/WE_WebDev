@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.collapsible {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+#toc {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+#toc ul {
+    list-style-type: none;
+}
+
+#toc ul li {
+    margin: 5px 0;
+}
